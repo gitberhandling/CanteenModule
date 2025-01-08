@@ -16,7 +16,7 @@
 
 1. **Clone the Repository**  
    ```bash
-  [(https://github.com/gitberhandling/CanteenModule.git)]
+  (https://github.com/gitberhandling/CanteenModule.git)
    cd CanteenModule
 
 
