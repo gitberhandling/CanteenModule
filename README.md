@@ -1,21 +1,46 @@
 # Canteen Ease: Canteen Ordering System  
 
-**Canteen Ease** is a comprehensive software solution developed using Python, designed to simplify and enhance the dining experience for students in educational institutions.  
+Canteen Ease is a Python-based software solution designed to simplify and enhance the dining experience for students in educational institutions. This project streamlines meal ordering, tracking, and management, making the process efficient and user-friendly.  
+
+---
 
 ## Features  
-- Streamlined meal ordering and tracking process.  
-- User-friendly interface tailored to student needs.  
-- Efficient management of cafeteria services.  
+- Simplified meal ordering and tracking  
+- Efficient management of cafeteria services  
+- User-friendly graphical interface  
 
-## Technologies Used  
-- **Tkinter**: For creating the graphical user interface.  
-- **MySQL Connector**: For database management.  
-- **Pillow (PIL)**: For image handling and display.  
+---
 
-## Installation  
+## How to Run the Project  
 
-1. **Clone the Repository**  
+Follow these steps to get started:  
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/gitberhandling/CanteenModule.git
    cd CanteenModule
+2. Set up a virtual environment (optional):
+
+   For Linux/MacOS:
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+
+   For Windows:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
+
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
    
+4. Set up the MySQL database:
+Create a new MySQL database for the project.
+Update the database connection details (host, user, password, database) in the canteen.py file.
+
+5. Run the application:
+
+   ```bash
+   python canteen.py
